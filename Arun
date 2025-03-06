@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiting Card - PRAJYOT</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffd1dc; /* Rose pink */
+            font-family: Arial, sans-serif;
+        }
+        .card {
+            width: 350px;
+            height: 200px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            font-style: italic;
+            color: #d63384; /* Dark pink */
+        }
+        .contact {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .insta {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 18px;
+        }
+        .insta img {
+            width: 25px;
+            height: 25px;
+        }
+        .marathi {
+            font-size: 16px;
+            color: #d63384;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>PRAJYOT</h2>
+        <p class="contact">📞 Mo No: 8975441688</p>
+        <div class="insta">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+            <span>@its_prajyot___.07x</span>
+        </div>
+        <p class="marathi">सर्व प्रकाराचे डिझाइन व व्हिडिओ बनवुन मिळेल</p>
+    </div>
+
+</body>
+</html>
